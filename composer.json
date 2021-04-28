@@ -1,0 +1,16 @@
+{
+    "name": "mattpetts/hello-composer",
+    "description": "A simple hello world package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mattpetts",
+            "email": "mattpetts23@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"mattpetts\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
